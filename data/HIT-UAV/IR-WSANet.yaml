@@ -1,0 +1,30 @@
+config:
+  cfg: /hy-tmp/yolowW/ultralytics/cfg/models/v10/yolov10s-w2.yaml
+  weights: /hy-tmp/yolowW/yolov10s.pt
+gflops: 0.0
+metrics:
+  f1: 0.8239633117802142
+  map: 0.548285391971243
+  map50: 0.8269651141352222
+  maps:
+  - 0.49688412587538133
+  - 0.7423845214887509
+  - 0.5496779420699754
+  - 0.7514130662871686
+  - 0.20106730413493912
+  precision: 0.8836430033548931
+  recall: 0.7718358132933324
+model_type: yolov10_3cw2
+names:
+  0: Person
+  1: Car
+  2: Bicycle
+  3: OtherVehicle
+  4: DontCare
+nc: 5
+nparams: 8094702
+speed:
+  inference: 6.058186188807471
+  loss: 0.01672003742709808
+  postprocess: 1.2681168546244657
+  preprocess: 0.16171840840515775

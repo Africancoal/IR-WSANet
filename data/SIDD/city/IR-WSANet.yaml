@@ -1,0 +1,21 @@
+config:
+  cfg: /hy-tmp/yolowW/ultralytics/cfg/models/v10/yolov10s3.yaml
+gflops: 0.0
+metrics:
+  f1: 0.9666106556618635
+  map: 0.7635507789349685
+  map50: 0.9726079874390609
+  maps:
+  - 0.7635507789349685
+  precision: 0.9995433236902465
+  recall: 0.9357798165137615
+model_type: yolov10_3
+names:
+  0: UAV
+nc: 1
+nparams: 9199062
+speed:
+  inference: 6.282480484848723
+  loss: 0.00046371319972047023
+  postprocess: 0.03747765077363461
+  preprocess: 0.3641154787956028
